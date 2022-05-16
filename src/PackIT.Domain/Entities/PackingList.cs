@@ -17,6 +17,7 @@ namespace PackIT.Domain.Entities
         private Localizaton _localization;
 
 
+
         private readonly LinkedList<PackingItem> _item = new();
         internal PackingList(Guid id, PackingListName name, Localizaton localization, LinkedList<PackingItem> items)
         {
